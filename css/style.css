@@ -35,12 +35,19 @@ body {
 }
 
 .col_1 {
+  width: 100%;
+  padding: 70px 100px 70px 65px;
 }
 
-h1,
-h2 {
+.heading,
+.number {
   font-family: "Inter", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
+}
+
+.heading {
+  font-size: 35px;
+  letter-spacing: .8px;
 }
 
 span {
@@ -48,16 +55,47 @@ span {
 }
 
 .text {
-  color: hsla(0, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.6);
+  padding-top: 28px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 300px;
 }
 
 .detail {
   color: hsla(0, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-top: 7px;
 }
 
-img {
-  background-image: 1 fill
-    linear-gradient(hsl(277, 64%, 61%), hsl(277, 64%, 61%));
+.col_2 {
+  position: relative;
+}
+
+.col_2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(70, 5, 107, 0.651)
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 75px;
+}
+
+.col_c {
+  margin-right: 40px;
 }
 
 .attribution {
