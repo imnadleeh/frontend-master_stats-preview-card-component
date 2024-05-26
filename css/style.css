@@ -60,6 +60,7 @@ body {
   font-weight: 700;
 }
 
+
 .heading {
   font-size: 35px;
   letter-spacing: 0.8px;
@@ -67,6 +68,11 @@ body {
   @media only screen and (max-width: 800px) {
     font-size: 27px;
   }
+}
+
+.number {
+  font-size: 24px;
+  font-weight: 500;
 }
 
 span {
@@ -77,9 +83,9 @@ span {
   color: hsla(0, 0%, 100%, 0.6);
   padding-top: 28px;
   font-family: "Lexend Deca", sans-serif;
-  font-size: 15px;
+  font-size: 14.8px;
   line-height: 25px;
-  font-weight: 300px;
+  font-weight: 300;
 
   @media only screen and (max-width: 800px) {
     text-align: center;
@@ -91,7 +97,7 @@ span {
   color: hsla(0, 0%, 100%, 0.6);
   text-transform: uppercase;
   font-family: "Lexend Deca", sans-serif;
-  font-size: 12px;
+  font-size: 12.5px;
   font-weight: 400;
   letter-spacing: 1px;
   padding-top: 7px;
@@ -124,7 +130,7 @@ span {
 
   @media only screen and (max-width: 800px) {
     flex-direction: column;
-    padding: 5px;
+    margin-top: 20px;
   }
 }
 
@@ -149,5 +155,12 @@ span {
     display: inline-block;
     height: 240px;
     width: 345px;
+  }
+  .col_b {
+    margin-top: 30px;
+  }
+  .col_c {
+    margin-top: 30px;
+    padding-left: 38px;
   }
 }
